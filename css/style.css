@@ -533,11 +533,6 @@ width: 40px;
   width: 264px;
 }
 
-.footer-container{
-  width: 208px;
-  margin-left: 120px;
-}
-
  .footer-icon-container {
    display: flex;
    gap: 16px;
@@ -582,13 +577,4 @@ width: 40px;
 .footer-link:hover,
 .footer-link:focus {
   background-color: #31D0AA;
-}
-
-.footer-icon {
-  content: "";
-  fill: #F4F4FD;
-  background-position: center;
-  background-size: contain;
-  position: absolute;
-  background-repeat: no-repeat;
 }

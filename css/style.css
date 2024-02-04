@@ -578,3 +578,45 @@ width: 40px;
 .footer-link:focus {
   background-color: #31D0AA;
 }
+
+.footer-input{
+  display: flex;
+  flex-direction: column;
+}
+
+.mail-input{
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+.form{
+  display: flex;
+  max-width: 453px;
+}
+
+.form-input{
+  background: navy-blue;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background: var(--navy-blue);
+}
+
+.placeholder {
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: white;
+  }
+
+  .footer-button-input{
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #4D5AE5;
+  }

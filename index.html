@@ -436,51 +436,35 @@
 
     <!-- Modal -->
     <div class="backdrop is-open">
-        <div class="overlay-container">
-            <button class="overlay-btn" type="button">
+        <div class="modal">
+            <button class="modal-btn" type="button">
                 <svg class="modal-one" width="8" height="8">
                     <use href="./images/icons.svg#icon-close.svg"></use>
                 </svg>
             </button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
-            <form class="modal-form" action=""></form>
-            <div class="label-container">
-                <label class="modal-label">
-                    <div>
+            <form class="modal-form">
+                <div>
+                    <label class="modal-label" for="user-name">
                         Name
-                        <input class="modal-input" type="text" name="username" required />
-                    </div>
-                </label>
-            </div>
-            <div class="label-container">
-                <label class="modal-label">
-                    <div>
+                        <input class="modal-input" name="name-use" type="text" placeholder="">
+                    </label>
+                </div>
+                <div>
+                    <label class="modal-label" for="user-phone">
                         Phone
-                        <input class="modal-input" type="text" name="username" required />
-                    </div>
-                </label>
-            </div>
-            <div class="label-container">
-                <label class="modal-label">
-                    <div>
+                        <input class="modal-input" name="name-phone" type="text" placeholder="">
+                    </label>
+                </div>
+                <div>
+                    <label class="modal-label" for="user-email">
                         Email
-                        <input class="modal-input" type="text" name="username" required />
-                    </div>
-                </label>
-            </div>
-            <div class="label-container">
-                <label class="modal-label">
-                    Comment
-                    <div>
-                        <textarea class="modal-input" name="" placeholder="Text input"></textarea>
-                    </div>
-                </label>
-            </div>
-            <div class="label-container">
-                <label class="modal-label">
-                    <input class="modal-input" type="text" name="username" required />
-                </label>
-            </div>
+                        <input class="modal-input" name="name-email" type="text" placeholder="">
+                    </label>
+                </div>
+
+                <button class="modal-button" type="submit">Send</button>
+            </form>
         </div>
     </div>
 </body>

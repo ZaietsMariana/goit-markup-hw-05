@@ -760,5 +760,26 @@ input::placeholder {
  }
 
 .modal-textarea:focus{
-border-color: #4D5AE5;
+ border-color: #4D5AE5;
+}
+
+.accept{
+  color: #8E8F99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.checkbox-container{
+ border: 1px solid rgba(46, 47, 66, 0.40);
+ width: 16px;
+ height: 16px;
+ border-radius: 2px;
+ display: flex;
+ align-items: center;
+}
+
+.accept input:checked + .checkbox-container{
+  background: #404BBF;
+
 }

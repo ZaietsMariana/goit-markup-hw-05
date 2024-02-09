@@ -649,15 +649,15 @@ width: 40px;
   /*Modal */
 
   .backdrop{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(46, 47, 66, 0.40);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 47, 66, 0.40);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .is-open{
@@ -736,8 +736,8 @@ width: 40px;
   }
 
   .modal-input-wrap{
-    position: relative;
-    margin-top: 4px;
+  position: relative;
+  margin-top: 4px;
     }
 
  .modal-input{
@@ -791,8 +791,6 @@ width: 40px;
 .modal-textarea:focus{
  border-color: #4D5AE5;
 }
-
-/* Check */
 
 .accept{
   margin-bottom: 24px;
